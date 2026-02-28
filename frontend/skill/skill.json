@@ -1,0 +1,46 @@
+{
+  "name": "minimax-web",
+  "description": "热点视频生成平台 - React前端项目",
+  "commands": {
+    "dev": {
+      "command": "npm run dev",
+      "description": "启动开发服务器"
+    },
+    "build": {
+      "command": "npm run build",
+      "description": "构建生产版本"
+    },
+    "lint": {
+      "command": "npm run lint",
+      "description": "代码检查"
+    }
+  },
+  "context": {
+    "projectType": "react",
+    "apiBaseUrl": "/api/v1",
+    "mainComponents": [
+      "Layout",
+      "Dashboard",
+      "CrawlList",
+      "CrawlSchedule",
+      "AnalysisList",
+      "AnalysisDetail",
+      "AnalysisStatistics",
+      "VideoList",
+      "VideoCreate",
+      "VideoDetail",
+      "PublishList",
+      "PublishAccount",
+      "FeishuConfig",
+      "SystemConfig"
+    ],
+    "apiModules": [
+      "crawlApi",
+      "analysisApi", 
+      "videoApi",
+      "publishApi",
+      "feishuApi",
+      "systemApi"
+    ]
+  }
+}
